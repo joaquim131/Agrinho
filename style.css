@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background-color: #f0f8f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .content.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .content img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .content div {
+    max-width: 600px;
+  }
+  
+  .button-section {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2e7d32;
+  }
+  
+  #curiosidade {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
